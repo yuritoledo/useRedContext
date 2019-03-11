@@ -5,7 +5,7 @@ const reducer = (state, action) => {
   switch (type) {
     case "checkIsAdmin":
       return state.isAdmin
-    case "makeItAdmin":
+    case "toggleAdmin":
       return { ...state, isAdmin: !state.isAdmin }
     default:
       return state

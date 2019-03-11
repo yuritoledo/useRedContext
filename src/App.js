@@ -1,8 +1,8 @@
 import React from 'react'
-import { UserCtxProvider } from './useUser'
-import { SettingsCtxProvider } from './useSettings'
+import { UserCtxProvider } from './Reducers/useUser';
+import { SettingsCtxProvider } from './Reducers/useSettings';
 
-import Counter from './Counter'
+import Counter from './Components/Counter'
 
 const App = () => {
   return (

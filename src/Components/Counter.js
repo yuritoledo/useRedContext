@@ -1,6 +1,6 @@
 import React from 'react'
-import { useUser } from './useUser'
-import { useSettings } from './useSettings'
+import { useUser } from '../Reducers/useUser'
+import { useSettings } from '../Reducers/useSettings'
 
 
 const Counter = () => {
@@ -21,8 +21,8 @@ const Counter = () => {
       <button onClick={() => userDispatch({ type: "reset" })}>
         Reset
       </button>
-      <button onClick={() => settingDispatch({ type: 'makeItAdmin' })}>
-        Check isAdmin
+      <button onClick={() => settingDispatch({ type: 'toggleAdmin' })}>
+        Toggle is admin status
       </button>
     </div>
   )
