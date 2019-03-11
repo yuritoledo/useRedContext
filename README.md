@@ -1,6 +1,9 @@
 # useRedContext
 > This is a project that aims on use a Redux-Like structure, to handle global variables, using only React hooks.
 
+## Play with it
+[https://codesandbox.io/s/ww8n17323k](https://codesandbox.io/s/ww8n17323k)
+
 ## How to use
 
 ### Creating a Reducer
