@@ -6,6 +6,7 @@
 ### Creating a Reducer
 1. Create the structure and reducer's files
   `mkdir Reducers`
+and:
   `touch useCounter.js`
 
 ```js
